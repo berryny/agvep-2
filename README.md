@@ -1,5 +1,14 @@
-Welcome to Glitch
-=================
+1azeez
+steven
+judi
+dmitri
+mekhi
+charley
+Allegra
+anthony
+kavaughn
+
+# Welcome to Youth Code the Future
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
@@ -7,17 +16,13 @@ Click `Show` in the header to see your app live. Updates to your code will insta
 
 Find out more [about Glitch](https://glitch.com/about).
 
-
-Your Project
-------------
-
-### ← README.md
+## Your Project
 
 That's this file, where you can tell people what your cool website does and how you built it.
 
 ### ← index.html
 
-Where you'll write the content of your website. 
+Where you'll write the content of your website.
 
 ### ← style.css
 
@@ -31,7 +36,6 @@ If you're feeling fancy you can add interactivity to your site with JavaScript.
 
 Drag in `assets`, like images or music, to add them to your project
 
-Made by [Glitch](https://glitch.com/)
--------------------
+## Made by [Glitch](https://glitch.com/)
 
-\ ゜o゜)ノ
+\ ゜ o ゜)ノ
