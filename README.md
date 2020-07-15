@@ -10,7 +10,7 @@
 - Allegra
 - anthony
 - kavaughn
-
+- mirlene
 ## Course Introduction
 
 The 2-hour course will teach how to use **HTML5** (Hypertext Markup Language), **CSS** (Cascading Style Sheets), online tools and resources to build and deploy a website. You will learn to structure, arrange site content and define the content as, for example, headings, paragraphs, or images to tell your story.
