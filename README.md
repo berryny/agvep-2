@@ -345,6 +345,7 @@ What is [Git](https://git-scm.com/)?
     visual way.
 - Git is a free and open source distributed version-control system for tracking changes in source code during software development.
 - Learn how to use Git to enhance your experience using GitHub. Click [here](https://docs.github.com/en/github/using-git)
+- Git 
 - Managing remote repositories. Click [here](https://docs.github.com/en/github/using-git/managing-remote-repositories)
 
 ### Using Git in Glitch
