@@ -11,6 +11,7 @@
 - anthony
 - kavaughn
 - mirlene
+
 ## Course Introduction
 
 The 2-hour course will teach how to use **HTML5** (Hypertext Markup Language), **CSS** (Cascading Style Sheets), online tools and resources to build and deploy a website. You will learn to structure, arrange site content and define the content as, for example, headings, paragraphs, or images to tell your story.
@@ -316,9 +317,22 @@ Drag in `assets`, like images or music, to add them to your project
 ## Commit Using Git
 
 What is [Git](https://git-scm.com/)?
-- Git is a free and open source distributed version-control system for tracking changes in source code during software development.
-- Learn 
 
+- Git is a free and open source distributed version-control system for tracking changes in source code during software development.
+- Learn how to use Git to enhance your experience using GitHub. Click [here](https://docs.github.com/en/github/using-git)
+
+### Using Git in Glitch
+
+Open **Terminal**
+![](https://hf-files-oregon.s3.amazonaws.com/hdpglitch_kb_attachments/2020/05-06/0f961dba-8003-4a74-af94-a830b5990e19/Terminal.gif)
+
+Terminal **Git** comments
+```
+git add *
+git commit -m "explain what changes you made as the reasoning for commiting to Github repo"
+```
+
+Retrieve Github 
 ### Create a README.md: Basic writing and formatting syntax
 
 Create sophisticated formatting for your prose and code on GitHub with simple syntax.
