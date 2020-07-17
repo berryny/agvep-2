@@ -320,6 +320,8 @@ What is [Git](https://git-scm.com/)?
 
 - Git is a free and open source distributed version-control system for tracking changes in source code during software development.
 - Learn how to use Git to enhance your experience using GitHub. Click [here](https://docs.github.com/en/github/using-git)
+- Managing remote repositories. Click [here](https://docs.github.com/en/github/using-git/managing-remote-repositories)
+
 
 ### Using Git in Glitch
 
@@ -330,7 +332,11 @@ Terminal **Git** comments
 ```
 git add *
 git commit -m "explain what changes you made as the reasoning for commiting to Github repo"
+git push https://github.com/<username>/agvep.git master
 ```
+- Username for 'https://github.com': `<username>`
+- Password for 'https://berryny@github.com': `<your password>`
+
 
 Retrieve Github 
 ### Create a README.md: Basic writing and formatting syntax
