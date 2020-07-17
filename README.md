@@ -294,6 +294,23 @@ Applies to: [Windows 10 Windows 8.1 Windows 7](https://support.microsoft.com/en-
 
 By pressing certain key combinations, you can do things that normally need a mouse, trackpad, or other input device. [Learn more](https://support.apple.com/en-us/HT201236)
 
+### Using Terminal
+
+- Open **Terminal**
+![](https://hf-files-oregon.s3.amazonaws.com/hdpglitch_kb_attachments/2020/05-06/0f961dba-8003-4a74-af94-a830b5990e19/Terminal.gif)
+- Make a **new file**
+```
+touch filename.html
+```
+- Add **content** in the new file.
+```
+echo "<!DOCTYPE html>" >> filename.html
+```
+- Refresh page / Glitch project
+```
+refresh
+```
+
 ## Your Project
 
 That's this file, where you can tell people what your cool website does and how you built it.
@@ -322,11 +339,9 @@ What is [Git](https://git-scm.com/)?
 - Learn how to use Git to enhance your experience using GitHub. Click [here](https://docs.github.com/en/github/using-git)
 - Managing remote repositories. Click [here](https://docs.github.com/en/github/using-git/managing-remote-repositories)
 
-
 ### Using Git in Glitch
 
 Open **Terminal**
-![](https://hf-files-oregon.s3.amazonaws.com/hdpglitch_kb_attachments/2020/05-06/0f961dba-8003-4a74-af94-a830b5990e19/Terminal.gif)
 
 Terminal **Git** comments
 ```
