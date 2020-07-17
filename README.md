@@ -313,6 +313,12 @@ If you're feeling fancy you can add interactivity to your site with JavaScript.
 
 Drag in `assets`, like images or music, to add them to your project
 
+## Commit Using Git
+
+What is [Git](https://git-scm.com/)?
+- Git is a free and open source distributed version-control system for tracking changes in source code during software development.
+- Learn 
+
 ### Create a README.md: Basic writing and formatting syntax
 
 Create sophisticated formatting for your prose and code on GitHub with simple syntax.
