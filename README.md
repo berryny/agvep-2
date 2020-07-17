@@ -345,7 +345,7 @@ What is [Git](https://git-scm.com/)?
     visual way.
 - Git is a free and open source distributed version-control system for tracking changes in source code during software development.
 - Learn how to use Git to enhance your experience using GitHub. Click [here](https://docs.github.com/en/github/using-git)
-- Git 
+- [Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 - Managing remote repositories. Click [here](https://docs.github.com/en/github/using-git/managing-remote-repositories)
 
 ### Using Git in Glitch
@@ -356,9 +356,10 @@ Terminal **Git** comments
 
 ```
 git branch
-git add *
+git add .
 git commit -m "explain what changes you made as the reasoning for commiting to Github repo"
-git push https://github.com/<username>/agvep.git master
+git remote add origin https://github.com/<username>/agvep.git
+git push origin master
 ```
 
 - Username for 'https://github.com': `<username>`
