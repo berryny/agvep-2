@@ -298,11 +298,11 @@ By pressing certain key combinations, you can do things that normally need a mou
 
 - Open **Terminal**
 ![](https://hf-files-oregon.s3.amazonaws.com/hdpglitch_kb_attachments/2020/05-06/0f961dba-8003-4a74-af94-a830b5990e19/Terminal.gif)
-- Make a **new file**
+- Make a **new file** using `type touch` - touch is hashed (/usr/bin/touch). Touch is a tool to create empty files and modify timestamps; We are creating empty files.
 ```
 touch filename.html
 ```
-- Add **content** in the new file.
+- `type echo` is a shell builtin. Add **content** in the new file.
 ```
 echo "<!DOCTYPE html>" >> filename.html
 ```
