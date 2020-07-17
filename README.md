@@ -297,16 +297,21 @@ By pressing certain key combinations, you can do things that normally need a mou
 ### Using Terminal
 
 - Open **Terminal**
-![](https://hf-files-oregon.s3.amazonaws.com/hdpglitch_kb_attachments/2020/05-06/0f961dba-8003-4a74-af94-a830b5990e19/Terminal.gif)
+  ![](https://hf-files-oregon.s3.amazonaws.com/hdpglitch_kb_attachments/2020/05-06/0f961dba-8003-4a74-af94-a830b5990e19/Terminal.gif)
 - Make a **new file** using `type touch` - touch is hashed (/usr/bin/touch). Touch is a tool to create empty files and modify timestamps; We are creating empty files.
+
 ```
 touch filename.html
 ```
+
 - `type echo` is a shell builtin. Add **content** in the new file.
+
 ```
 echo "<!DOCTYPE html>" >> filename.html
 ```
+
 - Refresh page / Glitch project
+
 ```
 refresh
 ```
@@ -335,6 +340,9 @@ Drag in `assets`, like images or music, to add them to your project
 
 What is [Git](https://git-scm.com/)?
 
+- GIT is not **GitHub**
+  - GitHub is just a platform used to save and store your code, and track its versions in a more
+    visual way.
 - Git is a free and open source distributed version-control system for tracking changes in source code during software development.
 - Learn how to use Git to enhance your experience using GitHub. Click [here](https://docs.github.com/en/github/using-git)
 - Managing remote repositories. Click [here](https://docs.github.com/en/github/using-git/managing-remote-repositories)
@@ -344,17 +352,37 @@ What is [Git](https://git-scm.com/)?
 Open **Terminal**
 
 Terminal **Git** comments
+
 ```
 git branch
 git add *
 git commit -m "explain what changes you made as the reasoning for commiting to Github repo"
 git push https://github.com/<username>/agvep.git master
 ```
+
 - Username for 'https://github.com': `<username>`
 - Password for 'https://berryny@github.com': `<your password>`
 
+### Connect from Desktop to Github
 
-Retrieve Github 
+- Create a new repository on the command line
+
+```
+echo "# <repo name>" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/<username>/<repo>.git
+git push -u origin master
+```
+
+- Push an existing repository from the command line
+
+```
+git remote add origin https://github.com/<username>/<repo>.git
+git push -u origin master
+```
+
 ### Create a README.md: Basic writing and formatting syntax
 
 Create sophisticated formatting for your prose and code on GitHub with simple syntax.
