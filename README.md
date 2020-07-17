@@ -330,6 +330,7 @@ Open **Terminal**
 
 Terminal **Git** comments
 ```
+git branch
 git add *
 git commit -m "explain what changes you made as the reasoning for commiting to Github repo"
 git push https://github.com/<username>/agvep.git master
