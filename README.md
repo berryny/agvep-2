@@ -11,6 +11,7 @@
 - anthony
 - kavaughn
 - mirlene
+
 ## Course Introduction
 
 The 2-hour course will teach how to use **HTML5** (Hypertext Markup Language), **CSS** (Cascading Style Sheets), online tools and resources to build and deploy a website. You will learn to structure, arrange site content and define the content as, for example, headings, paragraphs, or images to tell your story.
@@ -100,9 +101,57 @@ Microsoft Edge
 - [Download](https://www.microsoft.com/en-us/windows/microsoft-edge)
 - [Learn more about Chrome-like Edge browser](https://www.cnet.com/news/microsoft-releases-its-google-chrome-like-edge-browser-for-testing/)
 
+### The Keyboard
+
+![](https://cdn.glitch.com/a813cfc9-cd0e-4e81-9725-c22074e7a34a%2Fkeyboard.svg?v=1591896216657)
+
+The 104-key US QWERTY layout
+
+### Keyboard Symbols
+
+#### HTML
+
+- `<!-- my comment statement in HTML -->` HTML Comment
+- `!` exclamation mark
+- `<` less than
+- `>` greater than
+- `/` backslash
+- `=` equal
+- `' '` single quote
+- `" "` double quote
+- `-` dash / hyphen
+- `_` underscore
+- `;` semicolon
+
+#### CSS
+
+- `/* my comment statement in CSS */` CSS Comment
+- `@` the at sign used for `@import 'normalize.css';`
+- `(` open parenthesis
+- `)` close parenthesis
+- `.` period
+- `#` **pound / number sign** or hashtag
+- `{ }` curly brace / bracket
+- `{` open curly brace / open bracket
+- `}` close curly brace / close bracket
+- `-` dash / hyphen
+- `_` underscore
+- `' '` single quote
+- `" "` double quote
+- `:` colon
+- `;` semicolon
+
 #### Keyboad Commands
 
 ![](https://cdn.glitch.com/bc2980dc-21e3-43fc-8c6c-5e88354fe0de%2Fkeyboard-commands.jpg?v=1583946028507)
+
+### Keyboard shortcuts for Windows
+
+Applies to: [Windows 10 Windows 8.1 Windows 7](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts)
+
+### Keyboard shortcuts for Mac
+
+By pressing certain key combinations, you can do things that normally need a mouse, trackpad, or other input device. [Learn more](https://support.apple.com/en-us/HT201236)
 
 ## HTML
 
@@ -115,13 +164,6 @@ HTML tags : HTML documents are described by HTML tags. Each HTML tag describes d
 - The text between <body> and </body> describes the visible page content
 - The text between `<h1> and </h1>` describes a heading
 - The text between `<p> and </p>` describes a paragraph
-
-### Resources
-
-- [html cheat sheet](https://lifeyourway.net/printables/blogging-html-cheat-sheet.pdf)
-- [https://www.w3schools.com/tags/](w3schools.com/tags)
-- https://www.htmlgoodies.com/
-- [developer.mozilla.org/en-US/docs/Learn/HTML](developer.mozilla.org/en-US/docs/Learn/HTML)
 
 ### HTML Template
 
@@ -140,11 +182,140 @@ HTML tags : HTML documents are described by HTML tags. Each HTML tag describes d
 </html>
 ```
 
+### Placeholder text and images
+
+- [Lorem Ipsum](https://www.lipsum.com/) Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+- [Lorem Picsum](https://picsum.photos/) Lorem Ipsum for photos.
+
+### Sample Code using HTML5 tags
+
+- Incluces live preview `meta` tags
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web Development 101</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--     Standard HTML meta tags -->
+    <meta property="title" content="Standard Title Element Tags" />
+    <meta name="description" content="Standard HTML5 elements to your file" />
+    <meta name="keywords" content="HTML, CSS, Glitch, Github, Git" />
+    <meta name="author" content="Your Name" />
+    <!--     Social Media meta tags -->
+    <meta property="og:title" content="Using HTML5 Element Tags" />
+    <meta
+      property="og:description"
+      content="How to add for Facebook HTML5 elements to your file"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/f9cf2342-2a00-49fc-a880-3a7927d94f28%2Fpicsum-landscape.jpg?v=1595267771728"
+    />
+    <meta
+      property="og:url"
+      content="https://agvep-yctf-2.glitch.me/index.html"
+    />
+
+</head>
+  <body>
+    <header>
+      <nav>
+        <menu>
+          <ul>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>Resume</li>
+            <li>Contact</li>
+          </ul>
+        </menu>
+      </nav>
+    </header>
+    <aside>
+      <div class="sidebar">
+        <h2>Sidebar Header</h2>
+        <p>This is the sidebar content.</p>
+      </div>
+    </aside>
+    <main>
+      <div class="site-content">
+        <h1>Week One: HTML Sample Code</h1>
+        <p>This class is awesome!</p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy 2020 <br/> Author: First and Last Name</p>
+    </footer>
+  </body>
+</html>
+```
+
+## HTML Resources
+
+- [The Essential Meta Tags for Social Media | CSS-Tricks](https://css-tricks.com/essential-meta-tags-social-media/)
+- What is a [Favicon](https://en.wikipedia.org/wiki/Favicon)
+
+  - [How to Add a Favicon to your Site](https://www.w3.org/2005/10/howto-favicon)
+
+- [html cheat sheet](https://lifeyourway.net/printables/blogging-html-cheat-sheet.pdf)
+- [https://www.w3schools.com/tags/](w3schools.com/tags)
+- [developer.mozilla.org/en-US/docs/Learn/HTML](developer.mozilla.org/en-US/docs/Learn/HTML)
+
 ## CSS
 
 CSS stands for Cascading Style Sheets and it represents the design conventions that are applied to the display of HTML elements on screen, paper and other media.
 
 CSS syntax is expressed in the form of a rule-set consisting of a selector and a declaration box. Colors are specified using pre-defined color names. CSS can be added to HTML elements in three ways: inline, internal and external.
+
+## CSS: Three Styling Methods
+
+### Inline CSS
+
+- Using the `style` attribute eg.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simple HTML and Inline CSS</title>
+</head>
+<body>
+  <h1 style="background-color: yellow; color: black; text-align:center;">My First HTML with Inline CSS</h1>
+  <img src="https://picsum.photos/300" alt="Lorem Picsum" style="display: block; margin: 5% auto;">
+  <div class="container" style="border: 3px solid red;">
+    <p style="background-color: green; color: yellow; padding: 10px 5px 20px 5px; margin: 20px 20px 20px 20px;">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+</body>
+</html>
+```
+
+### Internal CSS
+
+```
+<head>
+  <style type="text/css">
+    p {
+      color: red;
+    }
+  </style>
+</head>
+```
+
+### External CSS
+
+```
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+```
 
 ### Sample Code
 
@@ -161,6 +332,18 @@ p {
     font-size: 20px;
 }
 ```
+
+# CSS Resources
+
+- [Normalize.css](https://necolas.github.io/normalize.css/) makes browsers render all elements more consistently and in line with modern standards.
+
+- Learn how to create [tabs](https://www.w3schools.com/howto/howto_js_tabs.asp) with CSS and JavaScript.
+
+- The [World Wide Web Consortium (W3C)](https://www.w3.org/) is an international community that develops open standards to ensure the long-term growth of the Web.
+
+- [Font Awesome](https://fontawesome.com/) vector icons and social logos on your website.
+
+- Creating wireframs with [Adobe XD](https://www.adobe.com/au/creativecloud/business/enterprise/how-to-wireframe-xd.html)
 
 #### Colors Tutorial
 
@@ -285,13 +468,32 @@ p {
 - [Buttons](https://getbootstrap.com/docs/4.4/components/buttons/#examples) - custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.
 - [CSS Flexbox](https://getbootstrap.com/docs/4.4/utilities/flex/#enable-flex-behaviors)
 
-### Keyboard shortcuts in Windows
+### Using Terminal
 
-Applies to: [Windows 10 Windows 8.1 Windows 7](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts)
+- Open **Terminal**
+  ![](https://hf-files-oregon.s3.amazonaws.com/hdpglitch_kb_attachments/2020/05-06/0f961dba-8003-4a74-af94-a830b5990e19/Terminal.gif)
+- Change a filename
+  - [Learn](https://shapeshed.com/unix-mv/) Linux and Unix mv command tutorial with examples
+    ```
+    mv oldfilename.html newfilename.html
+    ```
+- Make a **new file** using `type touch` - touch is hashed (/usr/bin/touch). Touch is a tool to create empty files and modify timestamps; We are creating empty files.
 
-### Mac keyboard shortcuts
+```
+touch filename.html
+```
 
-By pressing certain key combinations, you can do things that normally need a mouse, trackpad, or other input device. [Learn more](https://support.apple.com/en-us/HT201236)
+- `type echo` is a shell builtin. Add **content** in the new file.
+
+```
+echo "<!DOCTYPE html>" >> filename.html
+```
+
+- Refresh page / Glitch project
+
+```
+refresh
+```
 
 ## Your Project
 
@@ -312,6 +514,55 @@ If you're feeling fancy you can add interactivity to your site with JavaScript.
 ### ← assets
 
 Drag in `assets`, like images or music, to add them to your project
+
+## Commit Using Git
+
+What is [Git](https://git-scm.com/)?
+
+- GIT is not **GitHub**
+  - GitHub is just a platform used to save and store your code, and track its versions in a more
+    visual way.
+- Git is a free and open source distributed version-control system for tracking changes in source code during software development.
+- Learn how to use Git to enhance your experience using GitHub. Click [here](https://docs.github.com/en/github/using-git)
+- [Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+- Managing remote repositories. Click [here](https://docs.github.com/en/github/using-git/managing-remote-repositories)
+
+### Using Git in Glitch
+
+Open **Terminal**
+
+Terminal **Git** comments
+
+```
+git branch
+git add .
+git commit -m "explain what changes you made as the reasoning for commiting to Github repo"
+git remote add origin https://github.com/<username>/agvep.git
+git push origin master
+```
+
+- Username for 'https://github.com': `<username>`
+- Password for 'https://berryny@github.com': `<your password>`
+
+### Connect from Desktop to Github
+
+- Create a new repository on the command line
+
+```
+echo "# <repo name>" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/<username>/<repo>.git
+git push -u origin master
+```
+
+- Push an existing repository from the command line
+
+```
+git remote add origin https://github.com/<username>/<repo>.git
+git push -u origin master
+```
 
 ### Create a README.md: Basic writing and formatting syntax
 
